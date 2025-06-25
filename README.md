@@ -1,4 +1,4 @@
-# Ntelier [ N's Atelier ]
+# N-telier [ N's Atelier ]
 
 ---
 

@@ -1,5 +1,5 @@
 {
-  "name": "Ntelier",
+  "name": "ntelier",
   "packageManager": "yarn@4.9.2",
   "workspaces": [
     "backend",
