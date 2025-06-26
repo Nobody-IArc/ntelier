@@ -1,6 +1,6 @@
 generator client {
   provider = "prisma-client-js"
-  output   = "../generated/prisma"
+  output   = "../generated/prisma/client"
 }
 
 datasource db {
@@ -97,7 +97,7 @@ model Series {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  blodId String
+  blogId String
   blog Blog @relation(fields: [blogId], references: [id])
 
   // 시리즈에 속하는 게시글 배열
